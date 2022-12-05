@@ -1,5 +1,5 @@
 body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', 'Tahoma', Geneva, Verdana, sans-serif;
     margin: 0px;
     box-sizing: border-box;
 }
@@ -34,7 +34,7 @@ a{
 .container-two,
 .container-three,
 .container-four{
-    height: 300px;
+    height: 350px;
     /*border: 1px solid red;*/
 }
 .container-one{
@@ -105,3 +105,35 @@ a{
     flex:0 0 auto;
 }
 
+.container-three{
+    background-color:#E5E7EB;
+    padding: 30px;
+    box-sizing: border-box;
+    
+    color:#1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 10;
+}
+.container-three{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+.container-three p{
+    width: 850px;
+    flex: 0 1 auto;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 36px;
+}
+.container-three .autor{
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-end;
+}
