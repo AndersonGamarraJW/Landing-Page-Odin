@@ -94,7 +94,7 @@ a{
 .container-blocks div{
     height:230px;
     width: 150px;
-    text-align: center;
+    text-align:center;
 }
 
 .container-blocks .square{
@@ -118,10 +118,10 @@ a{
 }
 .container-three{
     margin: 0px;
-    padding: 0px;
+    padding: 60px;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    box-sizing: border-box;
 }
 .container-three p{
     width: 850px;
@@ -129,6 +129,8 @@ a{
     font-style: italic;
     font-weight: 200;
     font-size: 36px;
+    margin-bottom: 0px;
+    
 }
 .container-three .autor{
     font-size: 20px;
@@ -136,4 +138,39 @@ a{
     font-style: normal;
     display: flex;
     justify-content: flex-end;
+    margin-top: 0px;
+}
+
+.container-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-container{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 20px 100px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.call-container button {
+    color: white;
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 80px;
+    height: 25px;
+}
+.footer{
+    background-color: #1F2937;
+    height: 60px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
 }
