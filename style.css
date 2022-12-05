@@ -1,6 +1,9 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
 }
+
 
 .header {
     background-color: #1F2937;
@@ -26,5 +29,79 @@ a{
     text-decoration: none;
     color:#E5E7EB;
     font-size: 18px;
+}
+.container-one,
+.container-two,
+.container-three,
+.container-four{
+    height: 300px;
+    /*border: 1px solid red;*/
+}
+.container-one{
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    gap:60px;
+    justify-content: center;
+
+}
+.container-one h2{
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0px;
+}
+.container-one div{
+    height: 210px;
+}
+.container-one p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.container-one button{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 25px;
+    width: 80px;
+}
+.image-placeholder{
+    width: 500px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-two{
+    
+    align-items: center;
+    background-color: white;
+    
+}
+.container-blocks{
+    
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.container-two h2{
+    text-align: center;
+}
+.container-blocks div{
+    height:230px;
+    width: 150px;
+    text-align: center;
+}
+
+.container-blocks .square{
+    border: 3px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    flex:0 0 auto;
 }
 
